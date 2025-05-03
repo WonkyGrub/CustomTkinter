@@ -1,25 +1,3 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./documentation_images/CustomTkinter_logo_dark.png">
-    <img src="./documentation_images/CustomTkinter_logo_light.png">
-  </picture>
-</p>
-
-<div align="center">
-
-![PyPI](https://img.shields.io/pypi/v/customtkinter)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/customtkinter?color=green&label=downloads)
-![Downloads last 6 month](https://static.pepy.tech/personalized-badge/customtkinter?period=total&units=international_system&left_color=grey&right_color=green&left_text=downloads%20last%206%20month)
-![PyPI - License](https://img.shields.io/badge/license-MIT-blue)
-![LOC](https://tokei.rs/b1/github/tomschimansky/customtkinter?category=lines)
-
-</div>
-
----
-
-<div align="center">
-<a href="https://www.paypal.com/donate/?hosted_button_id=LK5QAZYRN2R2A"><img src="documentation_images/paypal_donate_button.png" width=170 alt="Paypal donation button"></a>
-
 <a></a>
 
 | Massive Thanks to all the People who Donated to help this Project 😇 |
@@ -38,10 +16,8 @@ and the window colors either adapt to the system appearance or the manually set 
 (Windows, macOS). With CustomTkinter you'll get a consistent and modern look across all
 desktop platforms (Windows, macOS, Linux).
 
-![](documentation_images/complex_example_dark_Windows.png)
 | _`complex_example.py` on Windows 11 with dark mode and 'blue' theme_
 
-![](documentation_images/complex_example_light_macOS.png)
 | _`complex_example.py` on macOS in light mode and standard 'blue' theme_
 ###
 
@@ -82,8 +58,6 @@ app.mainloop()
 ```
 which results in the following window on macOS:
 
-<img src="documentation_images/single_button_macOS.png" width="400"/>
-
 In the [examples folder](https://github.com/TomSchimansky/CustomTkinter/tree/master/examples), you
 can find more example programs and in the [Documentation](https://github.com/TomSchimansky/CustomTkinter/wiki)
 you can find further information on the appearance mode, scaling, themes and all widgets.
@@ -113,14 +87,12 @@ pass a PhotoImage object to the CTkButton with the ``image`` argument.
 If you want no text at all you have to set ``text=""`` or you specify
 how to position the text and image at once with the ``compound`` option:
 
-![](documentation_images/image_example_dark_Windows.png)
 | _`image_example.py` on Windows 11_
 ###
 
 ### Scrollable Frames
 Scrollable frames are possible in vertical or horizontal orientation and can be combined
 with any other widgets.
-![](documentation_images/scrollable_frame_example_Windows.png)
 | _`scrollable_frame_example.py` on Windows 11_
 
 ### Integration of TkinterMapView widget
